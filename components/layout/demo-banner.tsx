@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { Box, Typography, Button } from "@mui/material"
-import { KeyboardArrowDown, KeyboardArrowRight } from "@mui/icons-material"
+import { Box, Typography, Button } from "@mui/material";
+import { KeyboardArrowDown, KeyboardArrowRight } from "@mui/icons-material";
 
 export function DemoBanner() {
   return (
@@ -28,7 +28,10 @@ export function DemoBanner() {
             border: "1px solid rgba(255, 255, 255, 0.3)",
           }}
         >
-          <Typography variant="caption" sx={{ fontSize: "0.75rem", fontWeight: 500, color: "white" }}>
+          <Typography
+            variant="caption"
+            sx={{ fontSize: "0.75rem", fontWeight: 500, color: "white" }}
+          >
             D
           </Typography>
         </Box>
@@ -58,12 +61,9 @@ export function DemoBanner() {
           variant="outlined"
           size="small"
           sx={{
-            color: "white",
-            borderColor: "rgba(255, 255, 255, 0.3)",
-            "&:hover": {
-              backgroundColor: "rgba(255, 255, 255, 0.1)",
-              borderColor: "rgba(255, 255, 255, 0.3)",
-            },
+            border: "none",
+            borderRadius: "999px",
+            backgroundColor: "white",
           }}
           endIcon={<KeyboardArrowDown sx={{ fontSize: 16 }} />}
         >
@@ -74,10 +74,11 @@ export function DemoBanner() {
           size="small"
           sx={{
             color: "white",
-            borderColor: "rgba(255, 255, 255, 0.3)",
+            backgroundColor: "#5266eb",
+            border: "none",
+            borderRadius: "999px",
             "&:hover": {
-              backgroundColor: "rgba(255, 255, 255, 0.1)",
-              borderColor: "rgba(255, 255, 255, 0.3)",
+              backgroundColor: "#5266eb", 
             },
           }}
           endIcon={<KeyboardArrowRight sx={{ fontSize: 16 }} />}
@@ -86,5 +87,5 @@ export function DemoBanner() {
         </Button>
       </Box>
     </Box>
-  )
+  );
 }

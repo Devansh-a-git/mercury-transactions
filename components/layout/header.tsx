@@ -17,9 +17,10 @@ export function Header({ user }: HeaderProps) {
         display: "flex",
         alignItems: "center",
         backgroundColor: "white",
+        justifyContent: "space-between",
       }}
     >
-      <Box sx={{ position: "relative", flexGrow: 1, maxWidth: 400 }}>
+      <Box sx={{ position: "relative", flexGrow: 1, maxWidth: '60%' }}>
         <TextField
           placeholder="Search transactions or more"
           size="small"
