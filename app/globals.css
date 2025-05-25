@@ -92,3 +92,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.self-rows:hover {
+  .date_visibility {
+    display: block !important;
+  }
+}
