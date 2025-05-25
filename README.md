@@ -1,16 +1,17 @@
 # Mercury Transactions
 
 ## Clone the repository
-
+```bash
 --> git clone https://github.com/Devansh-a-git/mercury-transactions.git
-
+```
 
 Run the following commands in terminal:
 
---> cd mercury-transactions/
+```bash
+--> cd mercury-transactions 
 --> npm install --legacy-peer-deps
 --> npm run dev
-
+```
 
 ---
 
