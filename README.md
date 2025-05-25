@@ -7,7 +7,6 @@
 
 Run the following commands in terminal:
 
-
 --> cd mercury-transactions/
 --> npm install --legacy-peer-deps
 --> npm run dev
@@ -17,8 +16,8 @@ Run the following commands in terminal:
 
 ## Main Task
 
-1. **For the main use of not showing repeated date values, I have used a combination of very basic CSS property and array index tracking.**  
-2. **The code is fitted to work even when the transaction list is not sorted.**
+1. **For the main usecase of not showing repeated date values, I have used a combination of very basic CSS property and array index tracking.**  
+2. **The code is fitted to work with both sorted and unsorted arrays.**
 
 ---
 
